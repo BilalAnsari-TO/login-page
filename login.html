@@ -17,8 +17,15 @@
   <body>
     <div class="wrapper">
       <div class="container">
+
+
+        <div>
+            <p>Sign in</p>
+            <p>Sign up</p>
+        </div>
+       
         <!-- <p>Username feild is empty</p> -->
-        <form action="/">
+        <form action="submit">
           <div class="input-feild">
             <i class="fa-regular fa-envelope icon"></i>
             <input type="email" placeholder="Email" id="emailInput"/>
@@ -29,13 +36,16 @@
           </div>
           <div class="remember-checkbox">
             <input type="checkbox" />
-            <label style="cursor: pointer" class="check-label">
-              <i class="fa-solid fa-check"></i>
-            </label>
             <span>Remeber me</sp>
           </div>
-          <button class="btn">Sign in</button>
+          <button class="btn" type="submit" >Sign in</button>
         </form>
+        <div class="signup" >
+            <p>New on our platform?
+                <span>Create an account</span>
+            </p>
+            
+        </div>
       </div>
     </div>
     <script src="./script.js"></script>
